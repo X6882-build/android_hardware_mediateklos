@@ -56,4 +56,7 @@
 
     <!-- boolean indicating whether the Easy Connect (DPP) AKM is supported -->
     <bool name="config_wifiDppAkmSupported">true</bool>
+
+     <!-- Controls whether BPF offload is enabled for tethering -->
+    <bool name="config_tether_enableBpfOffload">false</bool>
 </resources>
